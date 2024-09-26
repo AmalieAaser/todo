@@ -1,0 +1,50 @@
+body{
+  background-image: url('../media/images/image.png');
+  background-size: 150%;
+  background-position: center;
+}
+.app {
+  text-align: center;
+  padding: 20px;
+  font-family: "Comic Sans MS";
+  color: rgb(229, 78, 2);
+
+}
+
+.todo-list {
+  margin: auto;
+  margin-top: 50px;
+  border: solid 3px rgb(229, 78, 2);
+  width: 40%;
+  min-height: 500px;
+  /*box-shadow: 5px 5px 5px 5px ;*/
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+  color: aliceblue;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+}
+
+.todo span {
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: "Comic Sans MS";
+  color: rgb(229, 78, 2);
+}
